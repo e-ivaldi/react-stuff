@@ -1,16 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-class Layout extends React.Component{
-  getName(){
-    return "Valeria yeppa yadda yadda";
-  }
-  render(){
-    return (
-      <h1>its working {this.getName()}!!!!</h1>
-    );
-  }
-}
+import Layout from "./components/Layout"
 
 const app = document.getElementById('app');
 
